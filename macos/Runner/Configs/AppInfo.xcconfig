@@ -1,0 +1,24 @@
+// Application-level settings for the Runner target.
+//
+// This may be replaced with something auto-generated from metadata (e.g., pubspec.yaml) in the
+// future. If not, the values below would default to using the project name when this becomes a
+// 'flutter create' template.
+
+// The application's name. By default this is also the title of the Flutter window.
+PRODUCT_NAME = snapshot_bug
+
+// The application's bundle identifier
+PRODUCT_BUNDLE_IDENTIFIER = dev.local.snapshotBug
+
+// cloud_firestore 7.1.0 requires macOS 11.0+.
+MACOSX_DEPLOYMENT_TARGET = 11.0
+
+// Needed for firebase_auth's macOS keychain persistence - see CLAUDE.md's
+// "User accounts and authentication" section in the main scene_hq repo for
+// the full story (SHQ-42). Reusing the same personal Team already set up
+// for that repo's apps/prototype - fine for a throwaway diagnostic project
+// that nobody else builds.
+DEVELOPMENT_TEAM = 5Z29752FJM
+
+// The copyright displayed in application information
+PRODUCT_COPYRIGHT = Copyright © 2026 dev.local. All rights reserved.
